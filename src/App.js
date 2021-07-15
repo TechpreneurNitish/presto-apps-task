@@ -3,6 +3,7 @@ import './App.css';
 import ClassClick from './Components/ClassClick';
 import Counter from './Components/Counter';
 import EventBind from './Components/EventBind';
+import Form from './Components/Form';
 import FunClick from './Components/FunClick';
 import Greet from './Components/Greet';
 import Msg from './Components/Msg';
@@ -15,8 +16,9 @@ import Welcome from './Components/Welcome';
 function App() {
   return (
     <div className="App">
-      <StyleSheet />
-      {/* <NameList />
+      <Form />
+      {/* <StyleSheet />
+      <NameList />
       <UserGreeting />
       <ParentComp />
       <EventBind />
