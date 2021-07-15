@@ -8,14 +8,16 @@ import Greet from './Components/Greet';
 import Msg from './Components/Msg';
 import NameList from './Components/NameList';
 import ParentComp from './Components/ParentComp';
+import StyleSheet from './Components/StyleSheet';
 import UserGreeting from './Components/UserGreeting';
 import Welcome from './Components/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <NameList />
-      {/* <UserGreeting />
+      <StyleSheet />
+      {/* <NameList />
+      <UserGreeting />
       <ParentComp />
       <EventBind />
       <ClassClick />
