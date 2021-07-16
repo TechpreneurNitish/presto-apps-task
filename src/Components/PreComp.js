@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MemoComp from './MemoComp'
 import PureComp from './PureComp'
 import RegComp from './RegComp'
 
@@ -20,11 +21,13 @@ class PreComp extends Component {
   }
   
   render() {
+    console.log('*****Pre Comp*****');
     return (
       <div>
         Pre Component
-        <RegComp name={this.state.name} />
-        <PureComp name={this.state.name} />
+        <MemoComp name={this.state.name} />
+        {/* <RegComp name={this.state.name} />
+        <PureComp name={this.state.name} /> */}
 
       </div>
     )
