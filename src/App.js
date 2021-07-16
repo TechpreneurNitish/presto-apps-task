@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MyComp from './Components/MyComp';
+import PreComp from './Components/PreComp';
 
 function App() {
   return (
     <div className="App">
-      <MyComp />
+      <PreComp />
     </div>
   );
 }
