@@ -1,14 +1,33 @@
 import React from 'react';
 import './App.css';
-import ComponentC from './Components/ComponentC';
-import { UserProvider } from './Components/userContext';
+import ClassCounter from './Components/ClassCounter';
+import CountDown from './Components/CountDown';
+import CounterThree from './Components/CounterThree';
+import HookCounter from './Components/HookCounter';
+import HookCounterArr from './Components/HookCounterArr';
+import HookCounterOne from './Components/HookCounterOne';
+import HookCounterTwo from './Components/HookCounterTwo';
+import HookMouse from './Components/HookMouse';
+import HookObj from './Components/HookObj';
+import IntervalCounter from './Components/IntervalCounter';
+import MouseCon from './Components/MouseCon';
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value='Nitish Singh Chauhan'>
-      <ComponentC />
-      </UserProvider>
+      {/* 
+      <IntervalCounter />
+      <MouseCon />
+      <HookMouse />
+      <HookCounterOne />
+      <CountDown />
+      <HookCounterArr />
+      <CounterThree />
+      <HookObj />
+      <HookCounterTwo />
+      <HookCounter />
+      <ClassCounter /> 
+      */}
     </div>
   );
 }
