@@ -3,6 +3,8 @@ import './App.css';
 import ClassCounter from './Components/ClassCounter';
 import CountDown from './Components/CountDown';
 import CounterThree from './Components/CounterThree';
+import CountOne from './Components/CountOne';
+import CountTwo from './Components/CountTwo';
 import DataFetching from './Components/DataFetching';
 import HookCounter from './Components/HookCounter';
 import HookCounterArr from './Components/HookCounterArr';
@@ -16,8 +18,10 @@ import MouseCon from './Components/MouseCon';
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <CountTwo />
       {/* 
+      <CountOne />
+      <DataFetching />
       <IntervalCounter />
       <MouseCon />
       <HookMouse />
